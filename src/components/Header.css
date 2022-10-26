@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+img {
+    width: 45px;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    background-color: rgb(163, 25, 25);
+    box-shadow: 1px 1px 4px rgb(163, 25, 25);
+
+}
+
