@@ -4,6 +4,7 @@ import {useState} from 'react';
 
 
 import MainSegundo from './components/MainSegundo';
+import Header from './components/Header'
 import Login from "./components/Login"
 import AppContext from './context/AppContext';
 import UserDataContext from './context/UserDataContext'
@@ -27,7 +28,10 @@ function App() {
           (
             <Login></Login>
           ) : (
+            <>
+            <Header></Header>
             <MainSegundo></MainSegundo>
+            </>
           )
         }
         </div>
